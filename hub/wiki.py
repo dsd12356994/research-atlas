@@ -52,16 +52,17 @@ def page_text(meta,body):
 
 def load_page(path):
     path=Path(path).resolve()
+    kb=KB.resolve()
     text=path.read_text(encoding='utf-8'); meta={}; body=text
     if text.startswith('---\n'):
         head,body=text[4:].split('\n---\n',1)
         for line in head.splitlines():
             k,_,v=line.partition(':');meta[k]=json.loads(v.strip())
-    meta.setdefault('id',path.relative_to(KB/'wiki').with_suffix('').as_posix())
+    meta.setdefault('id',path.relative_to(kb/'wiki').with_suffix('').as_posix())
     meta.setdefault('title',next((x[2:] for x in body.splitlines() if x.startswith('# ')),path.stem))
     meta.setdefault('type','note');meta.setdefault('status','user_note_unreviewed')
     meta.setdefault('sources',[]);meta.setdefault('raw',[])
-    return meta|{'body':body.strip(),'path':path.relative_to(KB).as_posix(),
+    return meta|{'body':body.strip(),'path':path.relative_to(kb).as_posix(),
                  'links':list(dict.fromkeys(re.findall(r'\[\[([^\]|\r\n]+)(?:\|[^\r\n]*?)?\]\]',body))),
                  'content_hash':hashlib.sha256(text.encode()).hexdigest()}
 

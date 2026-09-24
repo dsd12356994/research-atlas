@@ -1,4 +1,5 @@
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
@@ -24,6 +25,16 @@ class WikiTests(unittest.TestCase):
         path=wiki.KB/'wiki/notes/brackets.md'
         wiki.write_text(path,wiki.page_text({'id':'notes/brackets'},'[[sources/a|[DEMO] A title]] and [[sources/b|B [v2]]]'))
         self.assertEqual(wiki.load_page(path)['links'],['sources/a','sources/b'])
+
+    def test_relative_root_loads_absolute_path(self):
+        path=wiki.KB/'wiki/notes/path.md'
+        wiki.write_text(path,'# A manual note\n')
+        previous=Path.cwd()
+        try:
+            os.chdir(self.root)
+            with patch.object(wiki,'KB',Path('knowledge')):
+                self.assertEqual(wiki.load_page(path)['id'],'notes/path')
+        finally:os.chdir(previous)
 
     def test_snapshot_is_immutable_and_detects_tampering(self):
         ref=wiki.immutable({'title':'original'});path=wiki.KB/ref
