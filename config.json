@@ -1,0 +1,100 @@
+{
+  "timezone": "Asia/Shanghai",
+  "daily_time": "09:00",
+  "rss_categories": [
+    "cs",
+    "stat.ML"
+  ],
+  "lookback_days": 7,
+  "deep_reads_per_day": 5,
+  "exploration_reads": 1,
+  "queries": [
+    "(all:\"federated\" OR all:\"distributed\" OR all:\"decentralized\" OR all:\"cross-silo\") AND (all:\"retrieval\" OR all:\"RAG\")",
+    "(all:\"multimodal\" OR all:\"cross-modal\" OR all:\"audio\" OR all:\"video\" OR all:\"sensor\" OR all:\"point cloud\") AND (all:\"retrieval augmented\" OR all:\"retrieval-augmented\" OR all:\"RAG\")",
+    "(all:\"query privacy\" OR all:\"embedding inversion\" OR all:\"private retrieval\" OR all:\"query leakage\" OR (all:\"retrieval\" AND all:\"privacy\"))",
+    "(all:\"retrieval\" AND (all:\"budget\" OR all:\"latency\" OR all:\"communication\"))",
+    "(all:\"query expansion\" OR all:\"hypothetical document\" OR all:\"HyDE\") AND all:\"retrieval\""
+  ],
+  "topics": {
+    "Federated retrieval": [
+      "federated retrieval",
+      "federated rag",
+      "federated retrieval-augmented",
+      "distributed retrieval",
+      "cross-silo",
+      "fedrag",
+      "decentralized retrieval",
+      "decentralized rag",
+      "distributed rag"
+    ],
+    "Multimodal RAG": [
+      "multimodal retrieval",
+      "multimodal rag",
+      "multimodal retrieval-augmented",
+      "visual rag",
+      "cross-modal retrieval"
+    ],
+    "Beyond image + text": [
+      "audio",
+      "video",
+      "sensor",
+      "time series",
+      "point cloud",
+      "3d",
+      "speech",
+      "omnimodal"
+    ],
+    "Efficiency": [
+      "communication",
+      "latency",
+      "budget",
+      "routing",
+      "compression",
+      "bandwidth",
+      "adaptive retrieval"
+    ],
+    "Query privacy": [
+      "query privacy",
+      "embedding inversion",
+      "private retrieval",
+      "privacy-preserving",
+      "differential privacy",
+      "query leakage"
+    ],
+    "Retrieval + reasoning": [
+      "retrieval-augmented",
+      "retrieval augmented",
+      "rag",
+      "retriever",
+      "query expansion",
+      "hyde"
+    ]
+  },
+  "harvest": {
+    "page_size": 200,
+    "crossref_page_size": 100,
+    "max_pages_per_source": 60,
+    "seconds_per_source": 180,
+    "max_window_results": 5000,
+    "overlap_days": 2,
+    "reconcile_every_days": 7,
+    "backfill_days": 30
+  },
+  "broad_arxiv": [
+    {
+      "name": "arxiv-broad:cs-stat",
+      "query": "cat:cs.* OR cat:stat.ML"
+    }
+  ],
+  "crossref_queries": [
+    "federated retrieval",
+    "multimodal retrieval augmented"
+  ],
+  "references": {
+    "enabled": false,
+    "min_score": 8,
+    "parent_limit": 20,
+    "max_requests_per_run": 10,
+    "seconds_per_run": 60
+  }
+}

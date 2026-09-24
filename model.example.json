@@ -1,0 +1,5 @@
+{
+  "base_url": "https://your-provider.example/v1",
+  "model": "your-chat-model",
+  "api_key": "REPLACE_LOCALLY_DO_NOT_COMMIT"
+}

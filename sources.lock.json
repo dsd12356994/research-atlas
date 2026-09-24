@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "repo": "Agents4Academia-AI/prior",
+      "url": "https://github.com/Agents4Academia-AI/prior",
+      "status": "selected_models_vendored",
+      "role_zh": "仅复用数据模型以生成兼容导出；没有运行上游推理服务。",
+      "checked_at": "2026-09-23T11:44:50.665995+00:00",
+      "license": "Apache-2.0",
+      "stars": 14,
+      "pushed_at": "2026-08-28T08:41:01Z",
+      "archived": false,
+      "metadata_status": "verified_live",
+      "commit": "195f8445b5ea1edddc01ab232995f4d6b0b1b53d"
+    }
+  ],
+  "visualization": {
+    "checked_at": "2026-09-24",
+    "runtime": {
+      "repo": "cytoscape/cytoscape.js",
+      "version": "3.33.1",
+      "tag": "v3.33.1",
+      "license": "MIT",
+      "url": "https://github.com/cytoscape/cytoscape.js/tree/v3.33.1",
+      "path": "web/assets/cytoscape.min.js",
+      "sha256": "f55947f3daa3bae53209d4b885c195c157f595c225e508a6b382598d9452d6e2"
+    },
+    "conceptual_references": [
+      "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "https://www.sigmajs.org/docs/",
+      "https://quartz.jzhao.xyz/features/graph-view"
+    ]
+  }
+}

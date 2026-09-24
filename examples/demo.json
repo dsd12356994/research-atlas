@@ -1,0 +1,226 @@
+{
+  "synthetic": true,
+  "papers": [
+    {
+      "paper": {
+        "id": "demo:source-1",
+        "title": "[DEMO] Adaptive client selection",
+        "abstract": "Synthetic UI fixture, not a real publication. Adaptive client selection",
+        "url": "https://example.org/research-atlas-demo/source-1",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Federated retrieval",
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示如何记录客户端选择与通信代价之间的取舍。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-1",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "paper": {
+        "id": "demo:source-2",
+        "title": "[DEMO] Visual evidence retrieval",
+        "abstract": "Synthetic UI fixture, not a real publication. Visual evidence retrieval",
+        "url": "https://example.org/research-atlas-demo/source-2",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Multimodal RAG",
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示图像与文字证据的来源关联。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-2",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "paper": {
+        "id": "demo:source-3",
+        "title": "[DEMO] Audio and time-series evidence",
+        "abstract": "Synthetic UI fixture, not a real publication. Audio and time-series evidence",
+        "url": "https://example.org/research-atlas-demo/source-3",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Beyond image + text",
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示音频、时序等证据需要记录的适用条件。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-3",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "paper": {
+        "id": "demo:source-4",
+        "title": "[DEMO] Budget-aware retrieval",
+        "abstract": "Synthetic UI fixture, not a real publication. Budget-aware retrieval",
+        "url": "https://example.org/research-atlas-demo/source-4",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Efficiency",
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示把预算、延迟与检索质量作为不同评价维度。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-4",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "paper": {
+        "id": "demo:source-5",
+        "title": "[DEMO] Query embedding exposure",
+        "abstract": "Synthetic UI fixture, not a real publication. Query embedding exposure",
+        "url": "https://example.org/research-atlas-demo/source-5",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Query privacy",
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示如何区分威胁模型、攻击观测与防御主张。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-5",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "paper": {
+        "id": "demo:source-6",
+        "title": "[DEMO] Evidence-grounded synthesis",
+        "abstract": "Synthetic UI fixture, not a real publication. Evidence-grounded synthesis",
+        "url": "https://example.org/research-atlas-demo/source-6",
+        "authors": [
+          "Synthetic example"
+        ],
+        "published": "2026-01-01",
+        "score": 6,
+        "topics": [
+          "Retrieval + reasoning"
+        ]
+      },
+      "review": {
+        "problem_zh": "这是一条合成演示记录，不对应真实论文，也不能作为研究证据。",
+        "method_zh": "演示如何把已有来源组织成带引用的综合笔记。",
+        "claims": [
+          {
+            "kind": "author_limitation",
+            "statement_zh": "演示占位：实际研究需要在来源中核对任务、基线和实验条件。",
+            "source_url": "https://example.org/research-atlas-demo/source-6",
+            "section": "Synthetic fixture",
+            "status": "synthetic_demo"
+          }
+        ],
+        "evidence": []
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "demo-1",
+      "title_zh": "演示问题：如何分配检索预算？",
+      "question_zh": "这是展示问题卡结构的合成示例，不是已确认的研究空白。",
+      "already_done_zh": "公开演示不包含真实文献评审结论。",
+      "next_check_zh": "换入真实来源后，核对最近邻方法、数据和基线，再提出可证伪的假设。",
+      "supporting_papers": [
+        "demo:source-1",
+        "demo:source-4"
+      ]
+    },
+    {
+      "id": "demo-2",
+      "title_zh": "演示问题：不同模态怎样组织证据？",
+      "question_zh": "这是展示问题卡结构的合成示例，不是已确认的研究空白。",
+      "already_done_zh": "公开演示不包含真实文献评审结论。",
+      "next_check_zh": "换入真实来源后，核对最近邻方法、数据和基线，再提出可证伪的假设。",
+      "supporting_papers": [
+        "demo:source-2",
+        "demo:source-3",
+        "demo:source-6"
+      ]
+    },
+    {
+      "id": "demo-3",
+      "title_zh": "演示问题：查询隐私需要哪些条件？",
+      "question_zh": "这是展示问题卡结构的合成示例，不是已确认的研究空白。",
+      "already_done_zh": "公开演示不包含真实文献评审结论。",
+      "next_check_zh": "换入真实来源后，核对最近邻方法、数据和基线，再提出可证伪的假设。",
+      "supporting_papers": [
+        "demo:source-1",
+        "demo:source-5"
+      ]
+    }
+  ]
+}

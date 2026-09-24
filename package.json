@@ -1,0 +1,10 @@
+{
+  "name": "research-atlas-browser-checks",
+  "private": true,
+  "scripts": {
+    "test:ui": "node scripts/smoke_public.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

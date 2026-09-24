@@ -1,0 +1,4 @@
+{
+  "credential_path": "/absolute/path/outside/this/repository/model.json",
+  "extra_body": {}
+}
