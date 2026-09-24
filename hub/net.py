@@ -69,4 +69,3 @@ def get(url, *, retries=3, max_bytes=64_000_000, **kwargs):
         finally:
             if response is not None:
                 response.close()
-
